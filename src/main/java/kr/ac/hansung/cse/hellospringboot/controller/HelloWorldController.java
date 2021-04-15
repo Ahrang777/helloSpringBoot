@@ -12,4 +12,9 @@ public class HelloWorldController {
         // 예전엔 jsp 를 썼는데 Thymeleaf 쓸 생각
     }
 
+    @GetMapping("/hi")
+    public String sayHi(){
+        return "index"
+    }
+
 }
